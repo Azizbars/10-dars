@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+  background-color: #014e56;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_header {
+  padding-top: 73px;
+}
+
+.main_header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.main_header__logo_el {
+  display: inline-block;
+}
+
+.main_header__list {
+  margin-left: 80px;
+  display: flex;
+  gap: 40px;
+}
+
+.main_header__link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.main_header__btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 9px 32px;
+  border-radius: 24px;
+  border: 2px solid #fff;
+}
+/* hero*/
+.hero {
+  padding-top: 124px;
+  background-image: url(../img/rasm.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+
+.hero__container {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 255px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.hero__content {
+  width: 545px;
+}
+
+.hero__title {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+.hero__text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-bottom: auto;
+}
+.hero__line {
+  width: 50px;
+  height: 4px;
+  display: block;
+  background-color: #79c8c7;
+  margin-bottom: 79px;
+}
+
+.body {
+  background-color: #004047;
+}
+
+.cards {
+  padding-left: 165px;
+  padding-top: 124px;
+  background-image: url(../img/img.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+.directors_title {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.cards_list {
+  background-color: #012f34;
+  width: 350px;
+  text-align: center;
+  padding: 32px 24px 56px 24px;
+  margin-top: 64px;
+}
+.cards_name {
+  color: #79c8c7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.cards_text {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.cards2 {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.cards2_list {
+  background-color: #012f34;
+  width: 350px;
+  text-align: center;
+  padding: 32px 24px 56px 24px;
+  margin-top: 64px;
+}
